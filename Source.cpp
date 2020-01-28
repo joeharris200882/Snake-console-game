@@ -22,6 +22,10 @@ void setup()
 
 void draw()
 {
+	system("cls");
+	for (int i = 0; i < width; i++)
+		cout << "*";
+		cout << endl;
 
 }
 
