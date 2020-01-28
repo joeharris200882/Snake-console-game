@@ -12,7 +12,7 @@ int x, y, fruitX, fruitY;
 
 void setup()
 {
-
+	gameOver = false;
 }
 
 void draw()
@@ -28,4 +28,17 @@ void input()
 void logic()
 {
 
+}
+
+int main()
+{
+	while (gameOver = false)
+	{
+		setup();
+		draw();
+		input();
+		logic();
+
+	}
+	return 0;
 }
