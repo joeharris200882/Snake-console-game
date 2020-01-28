@@ -41,7 +41,7 @@ void logic()
 
 int main()
 {
-	while (gameOver = false)
+	while (!gameOver)
 	{
 		setup();
 		draw();
