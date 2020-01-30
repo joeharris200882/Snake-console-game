@@ -31,8 +31,8 @@ void draw()
 		{
 			for (int j = 0; j < width; j++)
 				if (j == 0) cout << "*";
-				else if (i == x && j == y) cout << "O";
-				else if (i == fruitX && j == fruitY) cout << "F";
+				else if (i == y && j == x) cout << "O";
+				else if (j == fruitX && i == fruitY) cout << "F";
 				else  cout << " ";
 			
 			for (int i = 0; i < width; i++)
