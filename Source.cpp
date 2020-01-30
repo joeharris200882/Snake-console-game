@@ -3,8 +3,8 @@
 
 using namespace std;
 
-const int width = 50;
-const int height = 50;
+const int width = 100;
+const int height = 20;
 bool gameOver;
 int x, y, fruitX, fruitY, score;
 
@@ -26,6 +26,27 @@ void draw()
 	for (int i = 0; i < width; i++)
 		cout << "*";
 		cout << endl;
+
+		for (int i = 0; i < height; i++)
+		{
+			for (int j = 0; j < width; j++)
+				if (j == 0) cout << "*";
+				else if (i == x && j == y) cout << "O";
+				else if (i == fruitX && j == fruitY) cout << "F";
+				else  cout << " ";
+			
+			for (int i = 0; i < width; i++)
+
+			if ( i = width) cout << "*";
+			cout << endl;
+
+			
+		}
+		for (int i = 0; i < width; i++)
+			cout << "%";
+		cout << endl;
+
+
 
 }
 
